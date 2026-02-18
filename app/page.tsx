@@ -71,7 +71,7 @@ const filteredRules = useMemo(() => {
         <strong>Pilot</strong> – exempeldata och förenklad funktion. Innehåll är inte komplett. Detta är en förstudieversion som utvecklats inom ramen för projektansökan till Skyltfonden.
       </div>
 
-      <h1 className="text-2xl font-bold mb-2">Körkort.nu – Pilot</h1>
+      <h1 className="text-2xl font-bold mb-2">Individanpassad uppdatering av trafikregler – Pilot</h1>
       <p className="text-gray-700 mb-6">
         Välj år och behörighet för att se exempel på regeländringar. Sök är bara ett enkelt filter i piloten.
       </p>
