@@ -74,7 +74,7 @@ export const rules: Rule[] = [
     year: 2020,
     effectiveFrom: "2020-01-01",
     title: "Miljözon klass 2 och 3",
-    summary:
+   
      summary:
   "Nya bestämmelser om miljözon klass 2 och 3 infördes genom ändring i trafikförordningen.",
 
