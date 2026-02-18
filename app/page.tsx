@@ -68,7 +68,7 @@ const filteredRules = useMemo(() => {
     <main className="min-h-screen bg-gray-50 p-10 font-sans">
       {/* Pilot banner */}
       <div className="mb-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
-        <strong>Pilot</strong> – exempeldata och förenklad funktion. Innehåll är inte komplett.
+        <strong>Pilot</strong> – exempeldata och förenklad funktion. Innehåll är inte komplett. Detta är en förstudieversion som utvecklats inom ramen för projektansökan till Skyltfonden.
       </div>
 
       <h1 className="text-2xl font-bold mb-2">Körkort.nu – Pilot</h1>
