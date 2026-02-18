@@ -198,6 +198,27 @@ onChange={(e) => {
   ) : null}
 </div>
 
+<section
+  style={{
+    borderTop: "1px solid #e6e6e6",
+    marginTop: 30,
+    paddingTop: 20,
+    fontSize: 14,
+    color: "#444",
+    lineHeight: 1.6,
+  }}
+>
+  <h2 style={{ fontSize: 18, marginBottom: 10 }}>Om projektet</h2>
+  <p>
+    Syftet med denna förstudie är att undersöka om individanpassad
+    information om regeländringar kan bidra till ökad kunskap om
+    gällande trafikregler bland etablerade förare.
+  </p>
+  <p>
+    Pilotversionen utvecklas inom ramen för en metodprövning med
+    inriktning på trafiksäkerhet.
+  </p>
+</section>
 
 
     </main>
