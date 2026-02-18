@@ -163,33 +163,50 @@ onChange={(e) => {
                 <div className="font-medium text-gray-900">
                   {r.title}
                 </div>
-                <div className="text-sm text-gray-600">
-                  {r.year}
-                </div>
+               <div className="text-sm text-gray-600">
+  {r.effectiveFrom ?? r.year}
+</div>
+
               </button>
 
-              {isOpen && (
-                <div className="px-4 pb-4 text-sm text-gray-700">
-                  <p className="mt-2">{r.summary}</p>
+{isOpen && (
+  <div className="px-4 pb-4 text-sm text-gray-700">
+    <p className="mt-2">{r.summary}</p>
 
-                  {r.tags?.length > 0 && (
-                    <div className="mt-3 flex flex-wrap gap-2">
-                      {r.tags.map((t) => (
-                        <span
-                          key={t}
-                          className="rounded-full bg-gray-100 px-2 py-1 text-xs"
-                        >
-                          {t}
-                        </span>
-                      ))}
-                    </div>
-                  )}
+    {r.effectiveFrom && (
+      <div className="mt-2 text-xs text-gray-600">
+        Ikraftträdande: <span className="font-medium">{r.effectiveFrom}</span>
+      </div>
+    )}
 
-                  <div className="mt-3 text-xs text-gray-500">
-                    Gäller: {r.appliesTo.join(", ")}
-                  </div>
-                </div>
-              )}
+    {r.source && (
+      <div className="mt-1 text-xs text-gray-600">
+        Källa: <span className="font-medium">{r.source.type} {r.source.ref}</span>
+        {r.source.note ? (
+          <span className="text-gray-500"> – {r.source.note}</span>
+        ) : null}
+      </div>
+    )}
+
+    {r.tags?.length > 0 && (
+      <div className="mt-3 flex flex-wrap gap-2">
+        {r.tags.map((t) => (
+          <span
+            key={t}
+            className="rounded-full bg-gray-100 px-2 py-1 text-xs"
+          >
+            {t}
+          </span>
+        ))}
+      </div>
+    )}
+
+    <div className="mt-3 text-xs text-gray-500">
+      Gäller: {r.appliesTo.join(", ")}
+    </div>
+  </div>
+)}
+
             </div>
           );
         })}
