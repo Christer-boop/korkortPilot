@@ -233,7 +233,7 @@ onChange={(e) => {
   </p>
   <p>
     Pilotversionen utvecklas inom ramen för en metodprövning med
-    inriktning på trafiksäkerhet.
+    inriktning på trafiksäkerhet. Funktionaliteten kommer vidareutvecklas och utvärderas inom projektet.
   </p>
 </section>
 
