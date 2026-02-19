@@ -227,11 +227,10 @@ onChange={(e) => {
 >
   <h2 style={{ fontSize: 18, marginBottom: 10 }}>Om projektet</h2>
   <p>
-    Syftet med denna förstudie är att pröva om individanpassad information om regeländringar kan stärka regelefterlevnad och därmed bidra till ökad trafiksäkerhet bland etablerade förare.
+    Syftet med denna förstudie är att pröva om individanpassad information om regeländringar kan stärka regelefterlevnaden och därigenom bidra till ökad trafiksäkerhet bland etablerade förare.
   </p>
   <p>
-    Pilotversionen utvecklas inom ramen för en metodprövning med
-    inriktning på trafiksäkerhet. Funktionaliteten kommer vidareutvecklas och utvärderas inom projektet.
+Pilotversionen har utvecklats inom ramen för en metodprövning med inriktning på trafiksäkerhet. Funktionaliteten kommer att vidareutvecklas och systematiskt utvärderas inom projektet.
   </p>
 </section>
 
